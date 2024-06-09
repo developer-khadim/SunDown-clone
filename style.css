@@ -4,8 +4,13 @@
 }
 
 @font-face {
-    font-family: font2;
+    font-family: font2; 
     src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face{
+    font-family: font3;
+    src: url(./NeueHaasDisplayRegular.ttf);
 }
 
 *::selection {
@@ -99,7 +104,7 @@ nav {
 }
 
 #left {
-    width: 30vw;
+    width: 40vw;
     font-size: 1.8vw;
     line-height: 2vw;
 }
@@ -122,8 +127,8 @@ nav {
     height: 36vw;
     width: 46vw;
     right: 0;
-    top: 65vh;
-    /* filter: blur(20px); */
+    top: 67vh;
+    
 }
 
 #hero1 {
@@ -203,8 +208,7 @@ nav {
     animation-iteration-count: infinite;
 }
 #moving-text h1{
-    
-font-size: 9vw;
+font-size: 8vw;
 display: inline-block;
 }
 #gola{
@@ -223,4 +227,33 @@ display: inline-block;
     to{
         transform: translate(-100%);
     }
+}
+
+#page2-bottom{
+    height: 80vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.5vw;
+}
+
+#page2-bottom h1{
+font-size: 4vw;
+width: 60%;
+line-height: 4vw;
+}
+#bottom-part2{
+    width: 25%;
+}
+#bottom-part2 img{
+width: 100%;
+border-radius: 15px;
+}
+
+#bottom-part2 p{
+    font-family: font3;
+    font-weight: 200;
+    margin-top: 2vw;
+    font-size: 1.5vw;
 }
